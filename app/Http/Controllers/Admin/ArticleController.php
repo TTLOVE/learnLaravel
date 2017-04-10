@@ -24,7 +24,7 @@ class ArticleController extends Controller
     /**
      * 插入新的文章
      *
-     * @return 
+     * @return 页面
      */
     public function create()
     {
@@ -36,7 +36,7 @@ class ArticleController extends Controller
      *
      * @param $request
      *
-     * @return 
+     * @return 跳转
      */
     public function store(Request $request)
     {
