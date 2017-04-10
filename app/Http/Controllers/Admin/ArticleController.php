@@ -75,7 +75,7 @@ class ArticleController extends Controller
         *
         * @param $request
         *
-        * @return 
+        * @return 跳转
      */
     public function update($id, Request $request)
     {
